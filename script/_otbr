@@ -67,7 +67,6 @@ otbr_install()
         "-DOTBR_DBUS=ON"
         "-DOTBR_WEB=ON"
         "-DOTBR_REST=ON"
-        "-DOT_COAP=ON"
         "${otbr_options[@]}"
     )
 
